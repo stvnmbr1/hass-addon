@@ -1,9 +1,9 @@
 {
-  "name": "Double Take Proxy",
+  "name": "Webmin Proxy",
   "version": "1.0.0",
   "url": "https://github.com/jakowenko/double-take",
-  "panel_icon": "mdi:face-recognition",
-  "slug": "double-take-proxy",
+  "panel_icon": "mdi:wrench",
+  "slug": "webmin-proxy",
   "description": "Unified UI and API for processing and training images for facial recognition",
   "arch": ["aarch64", "amd64", "armhf", "armv7", "i386"],
   "startup": "application",
@@ -12,7 +12,7 @@
   "ingress_port": 3000,
   "panel_admin": false,
   "options": {
-    "server": "double-take.local:3000"
+    "server": "url.local:3000"
   },
   "schema": {
     "server": "match(^.+:\\d+$)"
